@@ -1,0 +1,27 @@
+package lesson;
+import java.util.Scanner;
+public class ex5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int shops = 2;
+		int stylepen = 5;
+		int price = 0;
+		int sumPrice = 0;
+		int MAXsumPrice = 0;
+		for (int j = 1; j<shops; j++) {
+		if(	MAXsumPrice<sumPrice) {
+			sumPrice=MAXsumPrice;
+		}
+		for(int i = 1; i<=stylepen; i++) {
+		price = sc.nextInt();
+		sumPrice+=price;
+		
+		}
+		System.out.println("Shop num "+1+"sum of price pens is "+sumPrice);
+		}
+		System.out.println("MaxPrice is "+MAXsumPrice);
+	}
+
+}

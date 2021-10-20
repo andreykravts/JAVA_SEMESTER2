@@ -1,0 +1,28 @@
+
+
+package semester2_lesson_2_letsGo;
+import java.util.Scanner;
+public class next_class {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int x, y, max=0,min=0;
+		x=sc.nextInt();
+		y=sc.nextInt();
+		
+		while((x != 0 && y!=0)) {
+			if(x<y&&x<min )
+					min=x;
+			else if(x>y&&y<min )
+				min=y;
+			if(x>y&&x>max )
+			max=x;
+		else if(x<y&&y>max )
+			max=y;
+			x=sc.nextInt();
+			y=sc.nextInt();
+			System.out.println("min is : "+min);
+			System.out.println("max is : "+max);
+			
+		}
+	}
+}

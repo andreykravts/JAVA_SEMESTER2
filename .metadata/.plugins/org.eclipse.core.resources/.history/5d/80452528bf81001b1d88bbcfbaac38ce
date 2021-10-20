@@ -1,0 +1,28 @@
+
+package semester2_lesson_2_letsGo;
+import java.util.Scanner;
+public class seven_class {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int age = 0,counter = 0,maxAge=0, minAge=0;
+		System.out.println("enter a number : ");
+		age = sc.nextInt();
+		while(age!=0)
+		{
+			if(age!=0) {
+			if(age>maxAge)
+				maxAge = age;
+			else if(age<minAge)
+				minAge = age;
+			}
+			System.out.println("enter a number : ");
+			age = sc.nextInt();
+			
+			counter++;
+			
+		}
+		System.out.println("maxAge"+maxAge);
+		System.out.println("maxMin"+minAge);
+		
+	}
+}

@@ -1,0 +1,30 @@
+package examJavaFailed;
+
+public class first {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		System.out.println(function(1234567,4));
+		System.out.println(function(7234567,7));
+		System.out.println(function(1434567,4));
+	}
+	public static int function(int num, int dig) {
+		int result = 0, right = num,right1 = 0,  left = 0,counter1 = 0, counter2 = 0;
+
+		for(int i = num; right!=dig; i/=10) {
+			right = i%10;
+			counter1++;
+		}
+		
+		for(int j = num; j>0;j/=10) {
+			
+			counter2++;
+		}
+
+		result = (counter2 - counter1 - 1)+counter1-1;
+		return result;
+	}
+}

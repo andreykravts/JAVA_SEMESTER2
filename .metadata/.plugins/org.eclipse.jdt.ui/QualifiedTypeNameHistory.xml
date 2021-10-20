@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.Convert"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Tokens.Comment"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.linker.JavaAdapterFactory"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.Attribute.Factory"/>
+    <fullyQualifiedTypeName name="Factory_Java_StartPackage.Enemies.Boozer"/>
+    <fullyQualifiedTypeName name="Factory_Java_StartPackage.Characteristics_Enemies.Characteristics"/>
+    <fullyQualifiedTypeName name="Factory_Java_StartPackage.Enemies_main.Boozer"/>
+    <fullyQualifiedTypeName name="Factory_Java_StartPackage.Iplayer"/>
+    <fullyQualifiedTypeName name="Factory_Java_StartPackage.Player.Player"/>
+    <fullyQualifiedTypeName name="unit4.bucketLib.Bucket"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="ObjectsLesson1905.Point"/>
+    <fullyQualifiedTypeName name="java.awt.Point"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.FdLibm.Pow"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
+    <fullyQualifiedTypeName name="new_ex.React"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

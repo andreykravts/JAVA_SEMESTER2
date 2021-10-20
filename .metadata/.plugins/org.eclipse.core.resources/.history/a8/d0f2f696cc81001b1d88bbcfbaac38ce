@@ -1,0 +1,19 @@
+package semester2_lesson_2_letsGo;
+
+
+
+import java.util.Scanner;
+public class anotherEx_class {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num = 0,dig;
+		num = sc.nextInt();
+		while(num!=0) {
+			dig = num%10;
+			System.out.println("dig"+dig);
+			num/=10;
+			
+		}
+		}
+	}
+}

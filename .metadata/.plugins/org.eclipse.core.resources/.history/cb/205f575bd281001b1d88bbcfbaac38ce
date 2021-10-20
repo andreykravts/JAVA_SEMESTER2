@@ -1,0 +1,23 @@
+package semester2_lesson_2_letsGo;
+
+
+import java.util.Scanner;
+public class new_class {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num = 0,i=0;
+		boolean flag = true;
+		while(i<15) {
+			num = sc.nextInt();
+			i++;
+			if(i%2!=0) {
+			if(num%2==0)
+				flag = false;
+			}
+		}
+		if(flag)
+			System.out.println("all numbers divided by their place");
+		else 
+			System.out.println("not all numbers divided by their place");
+}
+}
