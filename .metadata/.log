@@ -199,3 +199,131 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.launching 4 4 2021-10-22 10:03:33.574
 !MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+!SESSION 2021-10-22 12:26:27.452 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=12.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-10-22 12:26:34.018
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-22 12:26:34.018
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74830d73,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1827fc4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-10-22 12:26:39.597
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Andre'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-22 12:35:36.066
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-22 12:45:12.575
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-22 13:00:25.298
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 17:32:45.668
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 17:33:26.291
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 17:33:55.262
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 17:56:09.434
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 18:34:12.378
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 18:37:28.779
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 18:38:58.305
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:01:57.985
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:04:54.059
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:14:59.745
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:15:19.301
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:38:35.235
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:51:43.358
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:53:53.665
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:55:00.502
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:55:50.207
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 19:57:30.097
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 20:05:44.172
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 20:09:21.950
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 20:12:22.071
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 20:12:50.726
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 20:19:27.559
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-27 20:28:26.623
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-28 08:45:02.438
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-28 08:46:45.445
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-28 08:49:27.563
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-28 08:50:03.993
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
+
+!ENTRY org.eclipse.jdt.launching 4 4 2021-10-28 08:51:41.532
+!MESSAGE Xbootclasspath option have been removed as not supported beyond Java 8.
