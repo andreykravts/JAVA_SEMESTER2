@@ -41,12 +41,17 @@ public class TryDoTargil3 {
 		
 		
 		//how much times this number repeats in array
-		System.out.println(" Please enter a nuber that you want to chek");
+		System.out.println(" Please enter a nuber that you want to cheke");
 		//input number that use want to check/ find
 		int num;
 		num=sc.nextInt();
 		System.out.println( "This number repeats into array is : "+HowMuchTimesRepeatsANumberArray(numbers,num)+" times ");
-		HowMuchTimesRepeatsANumberArray(numbers);
+		
+		// if you have array with random numbers
+		//and you want to know what is a number repeats more than other in your array
+		//you will get this number with help that function
+		System.out.println( "This number repeats into array is more times then other : "+HowMuchTimesRepeatsANumberArray(numbers));
+		
 	}
 
 	//fillarray
@@ -223,14 +228,22 @@ public class TryDoTargil3 {
 	public static int HowMuchTimesRepeatsANumberArray(double [] array){
 		
 	int result=0,i,j;
+	
+		//i want to use array length within limit of 0 t0 max number into this array
+	//so if into original array i have number 3345 and this number is repeated more times than others
+	// i will get this number into result
+		double count[] = new double[MaxNumArray(array)+1]; 
 		
-		double count[] = new double[array.length];
 		
-		for(i = 0, j =0; i<count.length && j<count.length; i++,j++) {
-			//count[i]= count[(int) array[j]];
-			result = result + count[j] ;
-			result + count[j] = count[(int)( array[i])];
+		//fill count array with numbers of repeats 
+		for(i = 0; i < array.length; i++) {
+			count[(int)(array[i])]++;
 		}
+		
+		//find the number that repeated of most times 
+		// if you have nubmer 5 repeated a three times into your array and this number 
+		//have more repeats than other numbers in this array you will get it
+		result = PlaceMaxNumIntoArray(count);
 		
 		return result;
 	}

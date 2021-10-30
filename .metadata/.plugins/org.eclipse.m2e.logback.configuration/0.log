@@ -95,3 +95,6 @@ java.nio.file.FileSystemException: C:\Users\Andre\Dropbox\My PC (DESKTOP-BETJF45
 2021-10-22 12:48:46,082 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@21b8b1{HTTP/1.1, (http/1.1)}{127.0.0.1:51792}
 2021-10-22 12:48:46,083 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1338764ms
 2021-10-22 12:48:46,083 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-10-30 13:22:29,913 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@21b8b1{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-10-30 13:22:29,913 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-10-30 13:22:29,964 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3b04db48{/help,null,UNAVAILABLE}
